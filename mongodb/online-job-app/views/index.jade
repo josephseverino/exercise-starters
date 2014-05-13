@@ -5,16 +5,16 @@ block content
 		h1 Omega 3 Studios
 		h2 Application for Senior Web Developer
 
-		form#application-form(action="/applicant", method="post")
+		form#application-form(action="/applicant" method="post")
 			.form-group
-				input.form-control(name="name", type="text", placeholder="Name")
+				input.form-control(name="name" type="text" placeholder="Name")
 			.form-group
-				textarea.form-control(name="bio",rows="5", placeholder="Bio")
+				textarea.form-control(name="bio" rows="5" placeholder="Bio")
 			.form-group
-				textarea.form-control(name="skills",rows="3", placeholder="Skills (separated by commas)")
+				textarea.form-control(name="skills" rows="3" placeholder="Skills (separated by commas)")
 			.form-group
-				input.form-control(name="years", type="number", placeholder="Years of experience")
+				input.form-control(name="years" type="number" placeholder="Years of experience")
 			.form-group
-				textarea.form-control(name="why", rows="5",placeholder="Why do you want to work here?")
+				textarea.form-control(name="why" rows="5" placeholder="Why do you want to work here?")
 			.form-group
 				input.btn.btn-default(type="submit")

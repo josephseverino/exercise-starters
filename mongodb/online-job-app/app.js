@@ -1,28 +1,14 @@
-
-/**
- * Module dependencies.
- */
-
 var express = require('express');
-var http = require('http');
-var path = require('path');
+var bodyParser = require('body-parser');
 
 var app = express();
-
-// all environments
-app.set('port', process.env.PORT || 3001);
-app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
-app.use(express.favicon());
-app.use(express.logger('dev'));
-app.use(express.methodOverride());
-app.use(app.router);
-app.use(express.static(path.join(__dirname, 'public')));
+app.set('views', __dirname + '/views');
+app.use(express.static(__dirname + '/public'));
+app.use(bodyParser());
 
-
-//renders the index page
-app.get('/', function(req, res){
-	res.render('index')
+app.get('/', function(req, res) {
+	res.render('index');
 });
 
 // displays a list of applicants
@@ -33,9 +19,10 @@ app.get('/applicants', function(req, res){
 // creates and applicant
 app.post('/applicant', function(req, res){
 	// Here is where you need to get the data
-	// from the post body and store it
+	// from the post body and store it in the database
+	res.send('No funciona');
 });
 
-http.createServer(app).listen(app.get('port'), function(){
-  console.log('Express server listening on port ' + app.get('port'));
+var server = app.listen(8441, function() {
+	console.log('Express server listening on port ' + server.address().port);
 });
