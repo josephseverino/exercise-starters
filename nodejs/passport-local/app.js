@@ -44,7 +44,9 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(flash());
 
-// Initialize the express session. Needs to be given a secret property
+// Initialize the express session. Needs to be given a secret property.
+// Also requires the resave option (will not force a resave of session if not modified)
+// as well as saveUninitialized(will not automatically create empty data)
 app.use(session({
 	secret: 'secret',
 	resave: false,
