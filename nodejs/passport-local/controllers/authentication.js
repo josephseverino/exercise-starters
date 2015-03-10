@@ -89,9 +89,9 @@ var authenticationController = {
     // It is safer to send as post, however, because the actual data won't
     // show up in browser history.
     var user = new User({
-      username: req.param('username'),
-      password: req.param('password'),
-      email: req.param('email')
+      username: req.body.username,
+      password: req.body.password,
+      email: req.body.email
     });
 
     // Now that the user is created, we'll attempt to save them to the

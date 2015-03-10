@@ -37,7 +37,7 @@ var app = express();
 app.set('view engine', 'jade');
 app.set('views', __dirname + '/views');
 app.use(express.static(__dirname + '/public'));
-app.use(bodyParser());
+app.use(bodyParser.urlencoded({extended: false}));
 
 // Add in the cookieParser and flash middleware so we can
 // use them later
@@ -45,7 +45,11 @@ app.use(cookieParser());
 app.use(flash());
 
 // Initialize the express session. Needs to be given a secret property
-app.use(session({secret: 'secret'}));
+app.use(session({
+	secret: 'secret',
+	resave: false,
+	saveUninitialized: false
+}));
 
 // Hook in passport to the middleware chain
 app.use(passport.initialize());
