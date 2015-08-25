@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="app" lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="main.css">
   <title>Wildfire</title>
 </head>
-<body>
+<body ng-controller="MainController">
 
 <div class="container">
 
@@ -26,87 +26,7 @@
 
 	<div class="col-lg-8">
 		<ul id="land" class="list-inline list-vert-stack">
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
-			<li><a href="#" class="btn btn-default">Grass</a></li>
-			<li><a href="#" class="btn btn-default">Shrubs</a></li>
-			<li><a href="#" class="btn btn-default">Trees</a></li>
+			<li ng-repeat="tile in land"><a href="#" class="btn btn-default">{{tile}}</a></li>
 		</ul>
 	</div>
 
