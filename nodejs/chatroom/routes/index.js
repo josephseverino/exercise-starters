@@ -4,5 +4,5 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
+  res.sendFile('home.html', { root: './public/html' });
 };
