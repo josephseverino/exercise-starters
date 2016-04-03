@@ -10,7 +10,7 @@ angular.module('app')
                 data   : $scope.signupForm
             }).then(function(returnData){
                 console.log(returnData)
-                if ( returnData.data.success ) { window.location.href="/dashboard" }
+                if ( returnData.data.success ) { window.location.href="/jail" }
             })
         }
 
@@ -20,7 +20,7 @@ angular.module('app')
                 url    : '/login',
                 data   : $scope.loginForm
             }).then(function(returnData){
-                if ( returnData.data.success ) { window.location.href="/dashboard" } 
+                if ( returnData.data.success ) { window.location.href="/jail" } 
                 else { console.log(returnData)}
             })
         }

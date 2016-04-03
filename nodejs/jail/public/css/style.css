@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .loggedInUsers {
     border: 2px solid black;
     min-height: 20px;
@@ -14,12 +18,52 @@
     overflow: hidden;
 }
 
-.chatBox {
-    height: 40px;
-    width: 70vw;
-    font-size: 26px;
-}
 
 .text-center {
     text-align: center;
+}
+
+.jail-container {
+    height: 600px;
+    width: 700px;
+    margin: auto;
+    border: 2px solid #111;
+    background-color: #666;
+    position: relative;
+}
+
+/*.cell-container {
+    display: flex;
+    justify-content: space-between;
+}*/
+.room {
+    height: 200px;
+    width: 300px;
+    border: 2px solid #111;
+    position: absolute;
+}
+.cell {
+    height: 80px;
+    width: 25%;
+    display:inline-block;
+    border: 2px solid #111;
+    float:left;
+}
+
+.lobby {
+    bottom: 0px;
+}
+
+.wardens-office {
+    bottom: 0px;
+    right: 0px;
+}
+
+.cafeteria {
+    right: 0px;
+    top: 120px;
+}
+
+.visitors-lounge {
+    top: 120px;
 }

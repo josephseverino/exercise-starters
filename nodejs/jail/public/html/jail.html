@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+    	<title>Dashboard</title>
+        <link href="/css/style.css" rel="stylesheet">
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js" type="text/javascript"></script>
+    </head>
+    <body ng-controller="mainController">
+    	<h1>Hey there {{user.username}}!</h1>
+        <div class="jail-container">
+            <div class="cell e"></div>
+            <div class="cell m"></div>
+            <div class="cell a"></div>
+            <div class="cell b"></div>
+            <div class="room wardens-office"></div>
+            <div class="room visitors-lounge"></div>
+            <div class="room cafeteria"></div>
+            <div class="room lobby"></div>
+        </div>
+    	<script src="/js/jail.js" type="text/javascript"></script>
+    </body>
+</html>

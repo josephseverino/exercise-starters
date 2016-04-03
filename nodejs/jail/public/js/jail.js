@@ -8,8 +8,9 @@ angular.module('app')
             url    : '/api/me',
         }).then(function(returnData){
             console.log(returnData)
-            if ( returnData.data.user ) {
-                $scope.user = returnData.data.user
+            if ( returnData.data ) {
+                console.log(returnData.data.user)
+                $scope.user = returnData.data
             }
         })        
     }])
