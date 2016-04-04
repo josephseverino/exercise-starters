@@ -5,17 +5,17 @@
         <link href="/css/style.css" rel="stylesheet">
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js" type="text/javascript"></script>
     </head>
-    <body ng-controller="mainController">
+    <body ng-cloak ng-controller="mainController">
     	<h1>Hey there {{user.username}}!</h1>
         <div class="jail-container">
             <div class="cell a">Cell A</div>
             <div class="cell b">Cell B</div>
-            <div class="cell e">Cell E</div>
-            <div class="cell m">Cell M</div>
-            <div class="room wardens-office">Warden's Office</div>
-            <div class="room visitors-lounge">Visitors' Lounge</div>
-            <div class="room cafeteria">Cafeteria</div>
-            <div class="room lobby">Lobby</div>
+            <a href="/cell-e"><div class="cell e">Cell E</div></a>
+            <a href="/cell-m"><div class="cell m">Cell M</div></a>
+            <a href="/wardens-office"><div class="room wardens-office">Warden's Office</div></a>
+            <a href="/visitors-lounge"><div class="room visitors-lounge">Visitors' Lounge</div></a>
+            <a href="/cafeteria"><div class="room cafeteria">Cafeteria</div></a>
+            <a href="/lobby"><div class="room lobby">Lobby</div></a>
             <div class="door-horizontal main-entrance"></div>
             <div class="door-horizontal hall-door"></div>
             <div class="door-horizontal visitors-south-door"></div>

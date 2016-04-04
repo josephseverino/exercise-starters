@@ -84,15 +84,6 @@ app.isAuthenticated = function(req, res, next){
     }
 }
 
-
-
-
-
-app.get('/', function(req, res){
-    res.sendFile('/html/login.html', {root: './public'})
-})
-
-
 app.post('/signup', function(req, res){
     bcrypt.genSalt(11, function(error, salt){
         bcrypt.hash(req.body.password, salt, function(hashError, hash){
@@ -127,11 +118,12 @@ app.post('/login', function(req, res, next){
     })(req, res, next);
 })
 
-
+app.get('/', function(req, res){
+    res.sendFile('/html/login.html', {root: './public'})
+})
 app.get('/api/me', function(req,res){
     res.send(req.user) //
 })
-
 app.get('/jail', app.isAuthenticated, function(req, res){
     res.sendFile('/html/jail.html', {root: './public'})
 })
