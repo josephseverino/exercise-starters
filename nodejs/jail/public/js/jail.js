@@ -9,7 +9,6 @@ angular.module('app')
         }).then(function(returnData){
             console.log(returnData)
             if ( returnData.data ) {
-                console.log(returnData.data.user)
                 $scope.user = returnData.data
             }
         })        
