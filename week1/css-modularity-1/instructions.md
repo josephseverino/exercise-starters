@@ -20,6 +20,7 @@ Write the CSS necessary to render the following components (see screenshots belo
 1. bar chart
 1. lightbox
 1. media block
+
 <strong>Do not modify the HTML other than to add classes.</strong>
 
 Your CSS must meet the following requirements:
