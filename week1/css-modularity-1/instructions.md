@@ -30,5 +30,6 @@ Your CSS must meet the following requirements:
 1. Must not be location specific (can be applied to similar elements on different pages/sections of the site)
 1. Style the given HTML to match the following screenshot. It doesn't have to be pixel perfect (just eyeball it) but it should be close, with color, font, layout, and spacing properly accounted for.
 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 <img src="https://ru-student-site.s3.amazonaws.com/css-modularity-prototype-part1.png" alt="css-modularity-prototype-part1.png" title="">
