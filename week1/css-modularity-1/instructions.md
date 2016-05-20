@@ -2,8 +2,8 @@ HTML2a: CSS Modularity I
 
 
 Skills
-    CSS Architecture
-    Problem-solving
+- CSS Architecture
+- Problem-solving
 
 Resources
 
