@@ -19,7 +19,7 @@ The time is now to treat mobile devices as first-class citizens. Mobile devices 
 Read the articles provided above to gain an understanding of the principles of Responsive Web Design then follow the instructions below to put them into practice.
 
 Requirements
--------------
+------------
 - Create a static HTML page. You may use whatever content you like as long as you have:
 A navigation bar at the top of the page. This must include at least 5 navigation links
 3 paragraphs of main content (lipsum.com)
