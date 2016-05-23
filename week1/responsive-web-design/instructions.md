@@ -10,7 +10,7 @@ Resources
 -----------
 - <a href="http://alistapart.com/article/responsive-web-design">A List Apart: Responsive Web Design</a>
 - <a href="http://learn.shayhowe.com/advanced-html-css/responsive-web-design">Shay Howe: Responsive Web Design</a>
-- Need some inspiration? <a href="foodsense.is">foodsense.is</a>
+- Need some inspiration? <a href="http://foodsense.is">foodsense.is</a>
 
 Background
 ----------
