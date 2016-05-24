@@ -13,9 +13,9 @@ Skills
 Resources
 ---------
 
-<a href="http://placehold.it/">Placeholder image tool</a>
-<a href="http://flatuicolors.com/">FlatUI Colors</a>
-<a href="http://www.lipsum.com/">Lorem Ipsum Generator</a>
+- <a href="http://placehold.it/">Placeholder image tool</a>
+- <a href="http://flatuicolors.com/">FlatUI Colors</a>
+- <a href="http://www.lipsum.com/">Lorem Ipsum Generator</a>
 
 Requirements
 ------------
