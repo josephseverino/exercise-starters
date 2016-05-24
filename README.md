@@ -1,4 +1,3 @@
-Starter Code for Fall 2013 Exercises
+Starter Code and instructions for all  Exercises
 =================
 
-Code to get you started on the exercises.
