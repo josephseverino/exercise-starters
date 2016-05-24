@@ -1,3 +1,3 @@
-Starter Code and instructions for all  Exercises
+Starter code and instructions for all  Exercises
 =================
 
