@@ -12,8 +12,8 @@ Requirements
 - Tip: You can report simple boolean evaluations of user input by combining boolean operators. 
 e.g. 
 <pre>
-alert(userInput.charAt(0) === 'B' && userInput.length === 7) will display true if the user enters 'Boulder' or 'Baghdad'.
-</pre>
+alert(userInput.charAt(0) === 'B' && userInput.length === 7)</pre> will display true if the user enters 'Boulder' or 'Baghdad'.
+
 
 - Alert the user if their phone number is valid (just true or false) according to the simple rule that the fourth and eighth characters must be dashes.
 
