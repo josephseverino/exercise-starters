@@ -10,9 +10,9 @@ Remember: If using the indented syntax, watch your whitespace! We recommend the 
 
 Resources
 --------
-- Stylus Homepage
-- Stylus Github
-- 
+- <a href="http://stylus-lang.com/">Stylus Homepage</a>
+- <a href="https://github.com/stylus/stylus">Stylus Github</a>
+
 Objectives
 -----------
 - Running the stylus command from the command line manually every time you save a .styl file can be cumbersome. Look up how to use the stylus command to watch files for changes and auto-compile.
