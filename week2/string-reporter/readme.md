@@ -19,6 +19,7 @@ Requirements
   - The subword from the 2nd to the 4th character, inclusive (substring)
 
 - The alert's output might look like this: 
+<pre>
 You entered: Mango 
 There are 5 characters in the word. 
 The third character is 'n' 
@@ -26,3 +27,4 @@ Lowercase: mango
 Uppercase: MANGO 
 Example: I have wanted a Mango since I was a little boy. 
 Subword: ang
+</pre>
