@@ -10,8 +10,11 @@ Requirements
 - Create an html file and js file and add a script tag to include the js file as before. (Getting familiar? Good!)
 - Prompt the user to enter their phone number with dashes. (You might want to assure them that it won’t be used for SPAM. Your site probably looks pretty sketchy right now, being a blank page with a prompt for their phone number. I know I wouldn’t enter my phone number...)
 
-? Tip: You can report simple boolean evaluations of user input by combining boolean operators. 
-? e.g. alert(userInput.charAt(0) === 'B' && userInput.length === 7) will display true if the user enters 'Boulder' or 'Baghdad'.
+Tip: You can report simple boolean evaluations of user input by combining boolean operators. 
+e.g. 
+<pre>
+alert(userInput.charAt(0) === 'B' && userInput.length === 7) will display true if the user enters 'Boulder' or 'Baghdad'.
+</pre>
 
 - Alert the user if their phone number is valid (just true or false) according to the simple rule that the fourth and eighth characters must be dashes.
 
@@ -27,7 +30,9 @@ Requirements
     - married
     - must be yes or no
     - may be any capitalization: YES, Yes, yes
-<pre>? Tip: While the built-in isNaN method works in most cases to test if a value is a number, it fails on some simple inputs like whitespace. The following function is a more robust implementation for checking if a string contains a valid number: var isNumber = function(n) { return !isNaN(parseFloat(n)) && isFinite(n); };</pre>
+<pre>
+Tip: While the built-in isNaN method works in most cases to test if a value is a number, it fails on some simple inputs like whitespace. The following function is a more robust implementation for checking if a string contains a valid number: var isNumber = function(n) { return !isNaN(parseFloat(n)) && isFinite(n); };
+</pre>
 
 Bonus
 ---------
