@@ -13,10 +13,10 @@ Requirements
 - Report back information in a single alert dialog about the word they entered. Use variables and string concatenation (+) to combine string values to be alerted. charAt, toLowerCase, toUpperCase, and substring are string functions. Look for some examples online and test things out in the console to see if you can figure out the syntax for using these functions.
   - The word they entered, verbatim
   - How many characters are in it (length property)
-The word in lowercase (toLowerCase)
-The word in uppercase (toUpperCase)
-The word in a sentence
-The subword from the 2nd to the 4th character, inclusive (substring)
+  - The word in lowercase (toLowerCase)
+  - The word in uppercase (toUpperCase)
+  - The word in a sentence
+  - The subword from the 2nd to the 4th character, inclusive (substring)
 
 - The alert's output might look like this: 
 You entered: Mango 
