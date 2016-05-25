@@ -11,9 +11,8 @@ Requirements
 - Create an html file and js file and add a script tag to include the js file as before.
 - Prompt the user to enter any word using the prompt function.
 - Report back information in a single alert dialog about the word they entered. Use variables and string concatenation (+) to combine string values to be alerted. charAt, toLowerCase, toUpperCase, and substring are string functions. Look for some examples online and test things out in the console to see if you can figure out the syntax for using these functions.
-
-The word they entered, verbatim
-How many characters are in it (length property)
+  - The word they entered, verbatim
+  - How many characters are in it (length property)
 The word in lowercase (toLowerCase)
 The word in uppercase (toUpperCase)
 The word in a sentence
