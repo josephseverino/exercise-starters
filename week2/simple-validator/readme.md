@@ -27,7 +27,7 @@ Requirements
     - married
     - must be yes or no
     - may be any capitalization: YES, Yes, yes
-<pr>? Tip: While the built-in isNaN method works in most cases to test if a value is a number, it fails on some simple inputs like whitespace. The following function is a more robust implementation for checking if a string contains a valid number: var isNumber = function(n) { return !isNaN(parseFloat(n)) && isFinite(n); };</pre>
+<pre>? Tip: While the built-in isNaN method works in most cases to test if a value is a number, it fails on some simple inputs like whitespace. The following function is a more robust implementation for checking if a string contains a valid number: var isNumber = function(n) { return !isNaN(parseFloat(n)) && isFinite(n); };</pre>
 
 Bonus
 ---------
