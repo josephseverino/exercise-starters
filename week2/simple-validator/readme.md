@@ -9,8 +9,7 @@ Requirements
 ----------
 - Create an html file and js file and add a script tag to include the js file as before. (Getting familiar? Good!)
 - Prompt the user to enter their phone number with dashes. (You might want to assure them that it won’t be used for SPAM. Your site probably looks pretty sketchy right now, being a blank page with a prompt for their phone number. I know I wouldn’t enter my phone number...)
-
-Tip: You can report simple boolean evaluations of user input by combining boolean operators. 
+- Tip: You can report simple boolean evaluations of user input by combining boolean operators. 
 e.g. 
 <pre>
 alert(userInput.charAt(0) === 'B' && userInput.length === 7) will display true if the user enters 'Boulder' or 'Baghdad'.
