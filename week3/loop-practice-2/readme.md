@@ -22,7 +22,7 @@ ocelot
 
 <em>Solution:</em>
 <pre>
-for(var i=0; i<animals.length; i++) {
+for(var i=0; i &lt; animals.length; i++) {
  console.log(animals[i]);
 }
 </pre>
