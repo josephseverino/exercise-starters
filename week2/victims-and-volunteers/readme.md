@@ -25,10 +25,13 @@ Create a Javascript application (A Javascript-driven web page. Just set up your 
 At the end, print out, in a single alert, the number of persons in need, the number of volunteers, and a list of all persons in need and all volunteers. You may format this in any way that looks reasonable.
 
 Bonus I:
+--------
 Change the program so that instead of asking the user up front how many victims they wish to enter, simply start asking for information and after each person in need they enter ask if they would like to continue using the confirm function.
 
 Bonus II:
+--------
 After all of the above, prompt the user to enter the name of a person in need. Then display an alert that lists all the volunteers that are available to help on the same street.
 
 Bonus III:
+--------
 ? Hold off on this one until we start on Angular! Replace prompts and alerts with forms and on-page rendering (i.e. displaying text in a div or other element in the DOM). Create a full-fledged user interface that could be used on a real site.
