@@ -29,10 +29,10 @@ for(var i=0; i<animals.length; i++) {
 
 Problems:
 ---------
-- rat cat butterfly marmot
+- <code>rat cat butterfly marmot</code>
 
-- rat butterfly ocelot
+- <code>rat butterfly ocelot</code>
 
-- ocelot marmot butterfly cat rat
+- <code>ocelot marmot butterfly cat rat</code>
 
-- rat cat cat butterfly butterfly marmot marmot ocelot
+- <code>rat cat cat butterfly butterfly marmot marmot ocelot</code>
