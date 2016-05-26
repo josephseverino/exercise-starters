@@ -8,18 +8,20 @@ For each problem below, write a loop that prints the given output.
 For example:
 -----------
 <em>Problem:</em>
-
+<pre>
 0
 1
 2
 3
 4
+</pre>
 <em>Solution:</em>
 
+<pre>
 for(var i = 0; i < 5; i++){
     console.log(i);
 }
-
+</pre>
 Problems
 ----------
 <em>Note:</em> The output in each of the problems below is written on a single line for formatting reasons, however your actual output will print each value on a separate line.
