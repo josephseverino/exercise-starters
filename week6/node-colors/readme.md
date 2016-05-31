@@ -57,4 +57,4 @@ Write a program that takes a color name like 'red', 'green', or 'blue' as a comm
 }
 </code></pre>
 - Call <code>JSON.parse</code> on the content body that comes back from the request in order to get a workable Javascript array containing all the colors.
-- Search the colors array for a color name that matches the user-specified name. Make sure to do a case-insensitive comparision. Return the R, G, and B components separated by spaces. for example,  <code>node color.js papayawhip</code> should return 255 239 213.
+- Search the colors array for a color name that matches the user-specified name. Make sure to do a case-insensitive comparision. Return the R, G, and B components separated by spaces. For example,  <code>node color.js papayawhip</code> should return 255 239 213.
