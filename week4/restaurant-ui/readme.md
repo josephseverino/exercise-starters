@@ -17,6 +17,7 @@ Requirements
 - When the user clicks on a plate, they get the option to add it to their order.
 - Display the user's order with total price.
 - Highlight the Plates that match the user's dietary preferences.
+
 <strong>Note</strong>: It might be a good idea to write down your design ahead of time and run it by a peer or instructor to see if it makes sound sense before beginning to implement it! Good luck and have fun!
 
 Bonus
