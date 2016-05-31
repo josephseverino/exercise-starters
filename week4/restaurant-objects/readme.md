@@ -18,11 +18,11 @@ Part I
 ---------
 - Define a constructor for the following object. Add parameters to the constructor for the given properties and add them as instance variables.
     - FoodItem
-    - string name
-    - number calories
-    - boolean vegan
-    - boolean glutenFree
-    - boolean citrusFree
+        - string name
+        - number calories
+        - boolean vegan
+        - boolean glutenFree
+        - boolean citrusFree
 - Define a <code>stringify</code> method on the constructor's prototype. It should return a string description of the food including its name, calories, and dietary information, formatted as you choose. <code>stringify</code> should not have any side effects.
 Instantiate three different FoodItems and store each in a separate variable. Call <code>stringify</code> on each instance and print the result to the console.
 
