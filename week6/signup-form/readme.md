@@ -13,8 +13,7 @@ Resources
 
 Requirements
 ---------
-- Create a route that sends the following text to the user in response to requesting '/': ```
-```
+- Create a route that sends the following text to the user in response to requesting '/': 
 - Run the web server and verify that the form displays when you request '/' page in your browser.
 - Add a new route to your app.js file that handles the <code>"/formsubmit"</code> path by using <code>app.post(...)</code>.
     - This will only handle POST requests, so if you enter "/formsubmit" into your browser you will receive a 404 response. This is because typing urls in the address bar of your browser always generates a GET request. Express routes have to match both the url and the method (GET, POST, PUT, DELETE).
