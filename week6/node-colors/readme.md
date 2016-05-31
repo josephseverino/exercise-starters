@@ -10,20 +10,19 @@ Requirements
 
 Part I: Luminosity
 --------------
-- Write a program that takes a color and returns the luminosity of that color using the following formula: luminosity = 0.2126*r + 0.7152*g + 0.0722*b
-
+- Write a program that takes a color and returns the luminosity of that color using the following formula: luminosity = 0.2126*r + 0.7152*g + 0.0722*b.
 For example, <code>node luminosity.js 255 239 213</code> should return 240.52439999999999. <code>node luminosity.js 50 15 25</code> should return 23.163. It should take each RGB color component as a separate command line argument. They can be accessed with <code>process.argv[2]</code>, <code>process.argv[3]</code>, <code>process.argv[4]</code>. (process[argv[0] refers to the executing program, 'node', and process.argv[1] refers to the current filename, e.g. 'luminosity.js'.)
 
-- Write a separate program that takes a color and returns 'light' if the luminosity is greater than 155 and 'dark' otherwise. At this point, you can just copy the luminosity function from the last step into a new file. You'll require it as a module in Part III. $ node islight.js 255 239 213 light $ node islight.js 50 15 25 dark
+- Write a separate program that takes a color and returns 'light' if the luminosity is greater than 155 and 'dark' otherwise. At this point, you can just copy the luminosity function from the last step into a new file. You'll require it as a module in Part III.
+    - <code>node islight.js 255 239 213</code> should return light.
+    - <code>node islight.js 50 15 25</code> should return dark.
 
 Part II: require
 -----------
 - Create a new project directory.
-- Create a file <code>colorutil.js</code> with the following content: module.exports = { };
-
+- Create a file <code>colorutil.js</code> with the following content: <code>module.exports = { };</code>
 - Add your <code>luminosity</code> function from Part I as a method on the module.exports object.
-
-Create a file <code>luminosity-cli.js</code> which does the same thing as <code>luminosity.js</code> from Part I, but instead requires <code>colorutil.js</code> to include the <code>luminosity</code> function.
+- Create a file <code>luminosity-cli.js</code> which does the same thing as <code>luminosity.js</code> from Part I, but instead requires <code>colorutil.js</code> to include the <code>luminosity</code> function.
 - <code>require</code> colorutil.js. Store it on a variable colorutil.
 Call the luminosity method defined on the colorutil module, passing the r, g, b values that are specified on the command line (<code>process.argv[2]</code>, <code>process.argv[3]</code>, <code>process.argv[4]</code>) and store the calculated result in a variable.
 console.log the result.
@@ -48,7 +47,7 @@ Write a program that takes a color name like 'red', 'green', or 'blue' as a comm
 - Initialize an empty package.json file using npm init.
 - Install the <a href="https://github.com/mikeal/request">request</a> module using <code>npm install --save request</code>. <strong>Note</strong>: <code>npm install</code> downloads the module and saves it in the node_modules folder. The <code>--save</code> option modifies your package.json, adding the module as a dependency. Use <code>--save-dev</code> to add the module as a dependency for development only, such as a unit testing framework like <a href="http://github.com/visionmedia/mocha">mocha</a>.
 - There are 140 web color names that browsers recognize. Use the request module to retrieve <a href="https://cdn.rawgit.com/metaraine/swatch/74580660c9229541622bbf1fd4198618d9f677e5/webcolors.json">webcolors.json</a> which contains an array of all 140 colors, stored as objects in the following format: 
-<pre>
+<pre><code>
 { 
     name: 'FireBrick', 
     hex: 'B22222', 
@@ -56,6 +55,6 @@ Write a program that takes a color name like 'red', 'green', or 'blue' as a comm
         r: 178, g: 34, b: 34 
     } 
 }
-</pre>
+</code></pre>
 - Call <code>JSON.parse</code> on the content body that comes back from the request in order to get a workable Javascript array containing all the colors.
 - <code>Search the colors array for a color name that matches the user-specified name. Make sure to do a case-insensitive comparision. Return the R, G, and B components separated by spaces. for example,  <code>node color.js papayawhip</code> should return 255 239 213.
