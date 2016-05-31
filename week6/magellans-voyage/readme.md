@@ -31,4 +31,4 @@ Bonus
 - Add a route to handle an unknown destination. For example, if the user requests a page for "India", the user should see a simple page that informs the user that Magellan did not travel to India. (See Application Routing in the Express documentation for a description of different types of dynamic routes.)
 - Add a /next route which will serve up a JSON response that tells the user what location comes after a given location.
 The route should take a query string of the current location e.g. <code>/next?location=Seville</code>.
-Return a JSON response that looks like the following: <coed>{ location: 'Seville', nextLocation: 'Canary Islands' }</code>
+Return a JSON response that looks like the following: <code>{ location: 'Seville', nextLocation: 'Canary Islands' }</code>
