@@ -49,11 +49,11 @@ Write a program that takes a color name like 'red', 'green', or 'blue' as a comm
 - There are 140 web color names that browsers recognize. Use the request module to retrieve <a href="https://cdn.rawgit.com/metaraine/swatch/74580660c9229541622bbf1fd4198618d9f677e5/webcolors.json">webcolors.json</a> which contains an array of all 140 colors, stored as objects in the following format: 
 <pre><code>
 { 
-    name: 'FireBrick', 
-    hex: 'B22222', 
-    rgb: { 
-        r: 178, g: 34, b: 34 
-    } 
+    &emsp;name: 'FireBrick', 
+    &emsp;hex: 'B22222', 
+    &emsp;rgb: { 
+        &emsp;&emsp;r: 178, g: 34, b: 34 
+    &emsp;} 
 }
 </code></pre>
 - Call <code>JSON.parse</code> on the content body that comes back from the request in order to get a workable Javascript array containing all the colors.
