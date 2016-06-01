@@ -28,29 +28,32 @@ Part I: Submitting the Form
 ----------------
 
 - Grab the <a href="https://github.com/RefactorU/exercise-starters/tree/master/week7/online-job-application/starter-code">starter code</a>.
-- In the <code>/applicant</code> route handler console.log() the data req.body. Confirm that the information that was entered in the form and submitted to the server is shown in the console before moving on to the next step.
+- In the <code>/applicant</code> route handler console.log() the data in <code>req.body</code>. Confirm that the information that was entered in the form and submitted to the server is shown in the console before moving on to the next step.
 - For testing purposes, send a response back to the client: <code>res.send('Success!');</code>.
 - When you see the Success message, now you can create something a little more user-friendly. Create a new route and view for the success message. In the <code>/applicant</code> route handler, redirect the user to the new route you created. Confirm the new functionality by submitting another form. Make sure you are correctly redirected to your new Success page.
+
 Part II: MongoDB
-Install Mongoose in your project npm install mongoose --save.
-Include Mongoose in your app.js on the server var mongoose = require('mongoose');.
-Call .connect() to connect to MongoDB. Give your DB a name and connect mongoose.connect('mongodb://localhost/mycompanyname');.
-Start Mongodb by running sudo mongod in a new Terminal tab.
-Based on the data received from the client in the "/applicant" endpoint, think about how you would structure the data in the database. Create a Mongoose model based on how the data should be structured. For example : var Cat = mongoose.model('Cat', { name: String });.
-! Remember that Mongoose will not create the database or the collections until you attempt to insert something into the database. ! You should see this after completing #2 in Part III
+---------------
+
+- Install Mongoose in your project <code>npm install mongoose --save</code>.
+-Include Mongoose in your app.js on the server <code>var mongoose = require('mongoose');</code>.
+- Call <code>.connect()</code> to connect to MongoDB. Give your DB a name and connect <code>mongoose.connect('mongodb://localhost/mycompanyname');</code>.
+- Start Mongodb by running <code>sudo mongod</code> in a new Terminal tab.
+- Based on the data received from the client in the <code>/applicant</code> endpoint, think about how you would structure the data in the database. Create a Mongoose model based on how the data should be structured. For example : <code>var Cat = mongoose.model('Cat', { name: String });</code>.
+<strong>Note:</strong> Remember that Mongoose will not create the database or the collections until you attempt to insert something into the database. You should see this after completing #2 in Part III
 
 Part III: Storing the data
-Now lets go back to the /applicant endpoint.
-Store the recieved data from req.body in your "applicants" model that you previously created. e.g. var kitty = new Cat({ name: 'Zildjian' }); kitty.save(). Use the example on the Mongoose homepage to guide you http://mongoosejs.com
-Go into your Mongo Shell and see if the data was successfully stored after the form is submitted. db.applicants.find()
+--------------
 
-Run these commands in Mongo Shell to see your new DB and collection
+- Now lets go back to the /applicant endpoint.
+- Store the recieved data from req.body in your "applicants" model that you previously created. e.g. <code>var kitty = new Cat({ name: 'Zildjian' }); kitty.save()</code>. Use the example on the Mongoose homepage to guide you http://mongoosejs.com
+- Go into your Mongo Shell and see if the data was successfully stored after the form is submitted. <code>db.applicants.find()</code>
+- Run these commands in Mongo Shell to see your new DB and collection
+    - <code>show dbs</code>
+    - <code>use applications </code>
+    - <code>show collections</code>
 
-```
-
-show dbs use applications show collections ```
-
-$ You have successfuly submitted a form and stored the data in a database!
+You have successfuly submitted a form and stored the data in a database!
 
 Part IV: Listing the applicants
 Now in the /applicants route, we'll want to pull out all of your applicants from your "applicants" collection. e.g. Cat.find({}, ...)
