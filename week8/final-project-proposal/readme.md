@@ -15,6 +15,7 @@ Your project must fit under one of the following high-level categories:
 
 - A minimum viable product that solves a problem for a specific group of users.
 - A technology experiment that shows off a unique feature or combination of technologies.
+
 In your proposal, you will be asked probing questions according to whichever category your idea falls under. 
 If you have an idea for a potential product, you will be asked what type of users the product is for and how your product attempts to solve a problem for them in a unique way. 
 If you have an idea for using CSS3 transformations, animation, MVC, canvas, or other experimental technologies, you will be asked what features you are attempting to demonstrate.
