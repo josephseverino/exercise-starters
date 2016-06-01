@@ -16,12 +16,18 @@ Skills
 - $routeParams
 
 Resources
-mongodb.org
-Mongo Collection Commands
-Mongoose
+-------
+- <a href="http://docs.mongodb.org/manual/contents/">mongodb.org</a>
+- <a href="http://docs.mongodb.org/manual/reference/method/js-collection/">Mongo Collection Commands</a>
+- <a href="http://mongoosejs.com/">Mongoose</a>
+
 Requirements
+-----------
+
 Part I: Submitting the Form
-Grab the starter code.
+----------------
+
+Grab the <a href="https://github.com/RefactorU/exercise-starters/tree/master/week7/online-job-application/starter-code">starter code</a>.
 In the /applicant route handler console.log() the data req.body. Confirm that the information that was entered in the form and submitted to the server is shown in the console before moving on to the next step.
 For testing purposes, send a response back to the client: res.send('Success!');.
 When you see the Success message, now you can create something a little more user-friendly. Create a new route and view for the success message. In the /applicant route handler, redirect the user to the new route you created. Confirm the new functionality by submitting another form. Make sure you are correctly redirected to your new Success page.
