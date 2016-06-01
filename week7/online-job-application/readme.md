@@ -56,18 +56,25 @@ Part III: Storing the data
 You have successfuly submitted a form and stored the data in a database!
 
 Part IV: Listing the applicants
-Now in the /applicants route, we'll want to pull out all of your applicants from your "applicants" collection. e.g. Cat.find({}, ...)
-Use $http.get() in the applicantController on the client-side to make a request to the server to get the data (you will need a new route for this).
-In the route handler for this new route, query the database for the applicants (Cat.find()...) and then use res.send to send the data back to the client.
-Once the data comes back to the client, the callback function passed to the .then() method chained to $http.get() is called. Use the response being passed back to render the applicants on the page
+---------------------
+
+- Now in the <code>/applicants</code> route, we'll want to pull out all of your applicants from your "applicants" collection. e.g. <code>Cat.find({}, ...)</code>
+- Use <code>$http.get()</code> in the applicantController on the client-side to make a request to the server to get the data (you will need a new route for this).
+- In the route handler for this new route, query the database for the applicants (<code>Cat.find()</code>...) and then use <code>res.send</code> to send the data back to the client.
+- Once the data comes back to the client, the callback function passed to the <code>.then()</code> method chained to <code>$http.get()</code> is called. Use the response being passed back to render the applicants on the page
+
 Bonus I: Deleting Applicants
-Add a delete button to each of your applicant names in the applicants list /applicants.
-When the button is clicked, send a request to the server to delete the item from your Mongo Collection.
+----------
+- Add a delete button to each of your applicant names in the applicants list <code>/applicants</code>.
+- When the button is clicked, send a request to the server to delete the item from your Mongo Collection.
+
 Bonus II: Application Viewer
-Create another HTML file to represent another view.
-Create a route that will send that file to the client. This route should look like /:userid
-In the Angular controller for this page, use $http and $routeParams to submit another request to the server for a specific applicant.
-That applicant's data should be retrieved from the database and sent to the client to be displayed to the user.
-In your list that displays your applicants. Make each name a link.
-When you click on this link it should go to a route that looks something like "/5266ec1d3939f24149000001"
-$ Success! You have successfully built a data-driven web app!
+----------------
+- Create another HTML file to represent another view.
+- Create a route that will send that file to the client. This route should look like <code>/:userid</code>
+- In the Angular controller for this page, use <code>$http</code> and <code>$routeParams</code> to submit another request to the server for a specific applicant.
+- That applicant's data should be retrieved from the database and sent to the client to be displayed to the user.
+- In your list that displays your applicants. Make each name a link.
+- When you click on this link it should go to a route that looks something like "/5266ec1d3939f24149000001"
+
+<strong>Success!</strong> You have successfully built a data-driven web app!
