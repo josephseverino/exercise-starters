@@ -7,17 +7,18 @@ Build a real-time chat application using Socket.io
 
 Skills
 -------
-- <a href="http://socket.io/">Socket.io</a>
+- Socket.io
 - Express
 - Node.js
 - Angular
 
 Resources
-socket.io
-socket.io quick reference
-nodejs.org
-Starter Code
+- <a href="http://socket.io/">socket.io</a>
+- <a href="http://nodejs.org/">nodejs.org<a/>
+- <a href="https://github.com/RefactorU/exercise-starters/tree/master/week8/chatroom/starter-code">Starter Code</a>
+
 Requirements
+--------------
 Part I (Get Socket.io running)
 Download the starter code here
 run npm install inside of that directory
