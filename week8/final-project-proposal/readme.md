@@ -22,14 +22,14 @@ If you have an idea for using CSS3 transformations, animation, MVC, canvas, or o
 
 Requirements
 ----------
-- <strong>Front-End Framework:</strong>.  Your application must leverage a front-end CSS framework such as Bootstrap, Foundation, or SemanticUI to save time and present a clean look-and-feel. 
-- <strong>Client-Side Interactivity:</strong>.  Your application must leverage DOM manipulation, adding/removing elements, event handlers, and/or animation. You may use Angular, Handlebars, Backbone, or another client-side MVC/templating library.
-- <strong>Object-Oriented Programming:</strong>.  Your application must keep the model (data) separate from the view (display). Data should be encapsulated in classes (defined by constructors) and rendering should happen in a separate step. Follow the example set by Inspirational Quotes or Restaurant UI. If you use a client-side MVC library it may provide its own method of object instantiation.
-- <strong>Express with MVC:</strong>. You application must run on the server from a Node-Express app. The application should use the MVC pattern, separating your data storage and logic into the Model, rendering logic into the View, and the glue that connects everything and handles requests into the Controller.
-- <strong>Database:</strong>. Persist data in a MongoDB database.
-- <strong>Deployment:</strong>. You application must be deployed online to a virtual private server, such as DigitalOcean or Amazon EC2.
+- <strong>Front-End Framework:</strong>  Your application must leverage a front-end CSS framework such as Bootstrap, Foundation, or SemanticUI to save time and present a clean look-and-feel. 
+- <strong>Client-Side Interactivity:</strong>  Your application must leverage DOM manipulation, adding/removing elements, event handlers, and/or animation. You may use Angular, Handlebars, Backbone, or another client-side MVC/templating library.
+- <strong>Object-Oriented Programming:</strong>  Your application must keep the model (data) separate from the view (display). Data should be encapsulated in classes (defined by constructors) and rendering should happen in a separate step. Follow the example set by Inspirational Quotes or Restaurant UI. If you use a client-side MVC library it may provide its own method of object instantiation.
+- <strong>Express with MVC:</strong> You application must run on the server from a Node-Express app. The application should use the MVC pattern, separating your data storage and logic into the Model, rendering logic into the View, and the glue that connects everything and handles requests into the Controller.
+- <strong>Database:</strong> Persist data in a MongoDB database.
+- <strong>Deployment:</strong> You application must be deployed online to a virtual private server, such as DigitalOcean or Amazon EC2.
 
 Optional Requirements
 ---------------
-- <strong>Authentication:</strong>. Allow user logins through Passport.
-- <strong>Web Sockets:</strong>. Provide real-time functionality with web sockets.
+- <strong>Authentication:</strong> Allow user logins through Passport.
+- <strong>Web Sockets:</strong> Provide real-time functionality with web sockets.
