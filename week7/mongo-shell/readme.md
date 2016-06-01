@@ -32,7 +32,7 @@ db.students.insert({name: "MY NAME"})
 db.students.insert({name: "Alan Turing", age: 103}) 
 db.students.insert({name: "Dennis Ritchie", age: 74})
 </pre>
--Find the document that refers to you. <code>db.students.findOne({name: "MY NAME"})</code>
+- Find the document that refers to you. <code>db.students.findOne({name: "MY NAME"})</code>
 - Change your name in the collection: <code>db.students.update({name: "old name"}, { $set: { name: "your nickname" } })</code>
 - Find all of the students in the collection: <code>db.students.find()</code>
 - Remove yourself from the students collection: <code>db.students.remove({name : "your name"})</code>
