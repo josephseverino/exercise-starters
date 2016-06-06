@@ -5,7 +5,7 @@ Skills
 --------
 - Binding data to the DOM
 - Sorting
-- Data Validation
+- Data Validation / Structure
 - CSS Architecture
 - Local Storage
 

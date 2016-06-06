@@ -1,16 +1,24 @@
 Dungeon Crawler
 ===========
 
+Skills
+--------
+- Object-Oriented Programming
+- Architecture
+- Data Structure
+
+
+Background
+--------
+One of the main purposes of this exercise is to make you think about architecture and organization before you even begin writing a single line of code.  Using Object-Oriented Programming will make this organization a lot easier so get ready to write some constructors!
+
+Games, like most complex applications, require an enormous amount of organization and forethought.  All the game components must fit and work together for the game to be a smooth, cohesive experience.
+
 Objective
 -------
 Using an object-oriented approach, create an dungeon-crawling game where the player can navigate through a series of rooms, fighting enemies and collecting items. Instructions are mainly guidelines, so be creative!
 
 <strong>Tip</strong>: Use incremental programming to code the smallest piece needed to see a result. Test and repeat. Start with the parts that are testable and build from there. Do not try to code multiple classes or functions at once.
-
-Skills
---------
-- Object-Oriented Programming
-- Architecture
 
 Requirements
 ----------
