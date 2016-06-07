@@ -1,6 +1,18 @@
 Restaurant UI
 ==========
 
+Skills
+-------
+- Angular Factory
+- Object Oriented Programming
+- MVC Architecture
+
+Background
+---------
+Now that you've had some experience using constructors and prototypes in vanilla JS, you should be able to translate it over into an Angular application.  Angular excels at creating data driven applications so translating the constructors and objects you've created should be a good way to practice that.
+
+Make sure to try to take advantage of Angular components to help keep you organized (controllers, factories, etc).  These will help you with your MVC architecture and make your application easier to develop and maintain.
+
 Objective
 -------
 Create a user interface for the Restaurant Objects exercise. Display a restaurant's menu and allow users to place orders.

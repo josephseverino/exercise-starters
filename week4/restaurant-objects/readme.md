@@ -1,9 +1,21 @@
 Restaurant Objects
 ===============
 
+Skills
+---------
+- Object Constructors
+- Higher Order Functions
+- Accessing Prototypes
+
+Background
+-----------
+Object Oriented Programming has been around for a long time because it works.  Organizing your code in an Object Oriented manner allows for modularity and extensibility.  As projects become larger, this level of organization / architecture becomes extremely important.
+
+Leveraging Higher Order Functions is also an important skill.  Re-writing or copy/pasting the same or similar code is inefficient and can end up costing you time in the long run (especially if that duplicated code needs to change).  Being able to leverage code you've already written through other functions/methods will help you stay more organized and your code more maintainable.
+
 Objective
 ----------
-Define several constructors.
+Define several constructors and prototype methods.
 
 Resources
 ---------

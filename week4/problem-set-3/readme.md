@@ -1,6 +1,10 @@
 Problem Set #3
 =============
 
+Background
+-----------
+Being a developer is all about solving problems.  This exercise is designed to make you think about patterns in data and how you can use code to manipulate those patterns to generate new or transformed data.
+
 Requirements
 --------------
 - Write a function <code>palindrome</code> that takes a single string parameter and returns true if the parameter is a palindrome (the string is the same forward as it is backward), otherwise returns false. For example: palindrome("racecar") should return true because "racecar" is also "racecar" backwards.

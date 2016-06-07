@@ -7,6 +7,10 @@ Skills
 - Event Handling
 - Timers
 
+Background
+----------
+Handling events is extremely important - events drive all applications that have user input.  This exercise is designed around handling multiple kinds of events and setting up rules for each one.  These rules and interactions will drastically affect how the wildfire spreads on the page.
+
 Resources
 --------
 <a href="http://getbootstrap.com/css/#buttons">Bootstrap Buttons</a>
