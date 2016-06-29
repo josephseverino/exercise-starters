@@ -69,3 +69,78 @@
     vertical-align:middle;
     padding:10px 20px 10px 10px;
 }
+#button4 {font-size: 16px;
+    background-color:salmon;
+     height:15px;
+    width:90px;
+    border-radius:8px;
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    text-align:center;
+    vertical-align:middle;
+    padding:15px 50px 15px 50px;
+
+}
+#button5 {font-size: 16px;
+    background-color:salmon;
+     height:45px;
+    width:190px;
+    border-radius:8px;
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    text-align:center;
+    vertical-align:middle;
+    padding:15px 50px 15px 50px;
+    border:transparent;
+
+}
+#button6 {font-size: 16px;
+    background-color:salmon;
+     height:45px;
+    width:190px;
+    border-radius:8px;
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    text-align:center;
+    vertical-align:middle;
+    padding:15px 50px 15px 50px;
+    border:transparent;
+
+}
+.buttons li a{
+    
+    
+    
+    
+    background-color:salmon;
+     height:25px;
+    width:100px;
+    /*border-radius:8px;*/
+    color:white !important;
+    text-decoration:none;
+    display:inline-block;
+    text-align:center;
+    vertical-align:middle;
+    padding:10px;
+    border:transparent;
+}
+.buttons li{
+    list-style-type:none;
+    margin: 0;
+    padding: 0px;
+    float:left;
+    
+}
+
+.buttons li:first-child a {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px
+}
+
+li:last-child a{
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
