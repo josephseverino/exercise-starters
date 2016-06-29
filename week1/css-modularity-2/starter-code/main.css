@@ -199,4 +199,89 @@ li:last-child a{
 .box {
     height:60px;
     width:100%;
+    
+}
+.move {
+    float:left;
+    position:relative;
+    left:90px;
+    
+}
+
+
+/*.tabs {
+  position: relative;   
+  height: 250px; 
+  clear: both;
+  margin: 25px 10px;
+}
+.tab {
+  float: left;
+  
+}
+.tab label {
+  background: #eee; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: 1px; 
+  position: relative;
+  left: 1px; 
+  color:blue;
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid purple; 
+  border-radius: 8px;
+  color:black;
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}*/
+.box-wrap {
+    display:inline-block;
+    height:250px;
+    width:700px;
+    border:2px solid #76A3D0;
+    padding:10px;
+    border-radius: 8px;
+    
+}
+.tab {
+    background-color:white;
+     height:25px;
+    width:80px;
+    border-top-left-radius:8px;
+    border-top-right-radius: 8px;
+    color:blue;
+    text-decoration:none;
+    display:inline;
+    text-align:center;
+    vertical-align:middle;
+    padding:10px;
+    border:2px solid #76A3D0;
+    float:left;
+    border-bottom-color: transparent;
+    z-index: 1;
+    position:relative;
+    top:3px;
+    
+
+}
+.tab a{
+    color:blue ;
+    text-decoration:none;
 }
