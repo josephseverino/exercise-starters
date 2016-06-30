@@ -1,0 +1,58 @@
+#header {
+    position:relative;
+    width:100%;
+    height: 100px;
+    font-size: 50px;
+    font-weight:bold;
+    text-align:center;
+    background-color:#333;
+    color:#56ED3F;
+    text-shadow: #000;
+    display:inline-block;
+    
+}
+.backgroundnav {
+    position:relative;
+    width:90%;
+    height: 70px;
+    text-align: center;
+    background-color: white;
+    z-index:0;
+    margin:auto;
+}
+.navBar li a{
+    list-style-type:none;
+    margin: 0;
+    padding: 0px;
+   
+  
+ 
+  
+    
+}
+.navBar li{
+   background-color:salmon;
+     height:40px;
+    width:80px;
+
+    color:white !important;
+    text-decoration:none;
+    display:inline-block;
+    text-align:center;
+    vertical-align:middle;
+    border-radius: 10px;
+   
+}
+.navBar a{
+    color:white !important;
+    text-decoration:none;
+    text-align:center;
+    vertical-align:middle;
+   
+    
+}
+img {
+     display: block;
+    margin: auto;
+    
+}
