@@ -15,9 +15,12 @@ header {
     padding-top: 20px;
 }
 img{
-   
-    width:250px; /* you can use % */
-    height: auto;
+    display:inline;
+ 
+    text-align:center;
+
+    width:150px; /* you can use % */
+    height:150px;
    
 }
 #reshape {
@@ -27,11 +30,12 @@ img{
     margin:auto;
   
 }
-.reshape2 {
+
+
+div img {
     display:inline;
-}
-div {
-    margin:auto;
+ 
+    text-align:center;
 }
 
 #content {
@@ -46,7 +50,7 @@ div {
 }
 .navlink {
     list-style: none;
-    display: inline-block;
+    display: inline;
     background-color: #BBB;
     /* padding: 22px; */
     padding:10px;
@@ -54,9 +58,7 @@ div {
    
 }
 
-#thisOne {
-    background-color: #777;
-}
+
 
 /*.full {
 
@@ -97,4 +99,25 @@ nav {
 a {
    text-decoration:none;
    color:white;
+}
+@media (max-width:960px) {
+   nav {
+        margin-left:20px;
+        margin-right:20px;
+        
+    }
+    
+    img {
+        max-width: 90%;
+        height: auto;
+    }
+}
+@media (max-width:700px) {
+    nav, li, a{
+        display:block;
+        
+    }
+    header {
+        height:200px;
+    }
 }
